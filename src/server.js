@@ -1,6 +1,7 @@
 import express from "express";
 import path from "path";
 import morgan from "morgan";
+import ROUTER from "./router/router";
 
 // 3000 이라는 port를 담음
 const PORT = 3000;
@@ -17,18 +18,9 @@ app.use(morgan("dev"));
 // app.js 에게 CSS나 js는 /assets에 있음
 // app.use(express.static(path.join(__dirname, "/assets")));
 
-// 아무것도 없는 것 "/" 을 get해서 응답을 해준 후 res.render "퍼그설정했던 것" 을 불러와 사용자에게 웹페이지를 보여준다.
-app.get("/", (req, res) => {
-  res.render("index");
-});
-
-app.get("/intro", (req, res) => {
-  res.render("intro");
-});
-
-app.get("/about", (req, res) => {
-  res.render("about");
-});
+app.get("/", ROUTER);
+app.get("/intro", ROUTER);
+app.get("/about", ROUTER);
 
 // 설정 끝난 후 Server Start
 app.listen(PORT, () => {
