@@ -18,7 +18,7 @@
   text-decoration: none;
   list-style: none;
   font-size: 20px;
-  color: #777;
+  color: #747d8c;
   font-weight: 600;
   transition: 0.5s;
   padding: 10px 20px;
@@ -26,5 +26,5 @@
 }
 
 .menus .menus__menu a:hover {
-  color: #1e90ff;
+  color: #0b0b0b;
 }
