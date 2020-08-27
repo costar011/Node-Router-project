@@ -1,8 +1,8 @@
 .menus {
   width: 100%;
   height: 60px;
-  border-bottom: 1px solid #ccc;
-  box-shadow: 2px 3px 3px #ccc;
+  border-bottom: 1px solid #d2dae2;
+  box-shadow: 3px 3px 3px #d2dae2;
 
   display: flex;
   flex-direction: row;
@@ -17,7 +17,7 @@
 .menus .menus__menu a {
   text-decoration: none;
   list-style: none;
-  font-size: 18px;
+  font-size: 20px;
   color: #777;
   font-weight: 600;
   transition: 0.5s;
