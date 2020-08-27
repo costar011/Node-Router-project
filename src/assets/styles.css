@@ -1,4 +1,6 @@
+@import "./reset.css";
+@import "./nav.css";
+
 body {
   overflow: hidden;
-  background-color: aqua;
 }
