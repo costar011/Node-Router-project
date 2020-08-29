@@ -15,7 +15,7 @@
 
 .wrapper .wrapper__col2__left,
 .wrapper .wrapper__col2__right {
-  width: 60px;
+  width: 80px;
   height: 100%;
 }
 
@@ -28,13 +28,14 @@
   flex-direction: row;
 }
 
-.wrapper .wrapper__col3__left,
-.wrapper .wrapper__col3__right {
-  width: 60px;
+.wrapper .wrapper__col3 .wrapper__col3__left,
+.wrapper .wrapper__col3 .wrapper__col3__right {
+  width: 80px;
   height: 100%;
 }
 
-.wrapper .wrapper__col2__main .wrapper__col3__main {
+.wrapper .wrapper__col2 .wrapper__col2__main,
+.wrapper .wrapper__col3 .wrapper__col3__main {
   width: 100%;
   height: 100%;
 }
