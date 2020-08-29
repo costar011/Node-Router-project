@@ -3,11 +3,21 @@ extends layouts/main.pug
 block content
 
     section.wrapper
-        .wrapper__col1 col1
+        .wrapper__col1
+
         .wrapper__col2
-            .wrapper__col2__left col2__left1
-            .wrapper__col2__main col2__main1
-            .wrapper__col2__right col2__right1
+            .wrapper__col2__left 
+
+            .wrapper__col2__main
+                .wrapper__col2__main__top.mt
+                    .wrapper__col2__main__top__img
+                    .wrapper__col2__main__top__txt txt1
+
+                .wrapper__col2__main__bottom.mb
+                    .wrapper__col2__main__bottom__txt txt2
+                    .wrapper__col2__main__bottom__img
+
+            .wrapper__col2__right 
 
         .wrapper__col3
             .wrapper__col3__left col3__left2
