@@ -87,3 +87,42 @@
   width: 100%;
   height: 100%;
 }
+
+.cm3 {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cm3 div {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px #777;
+}
+
+.cm3 .wrapper__col3__main__box1 {
+  width: 250px;
+  height: 430px;
+
+  background-color: cornflowerblue;
+
+  margin-top: 145px;
+}
+
+.cm3 .wrapper__col3__main__box2 {
+  width: 250px;
+  height: 430px;
+
+  background-color: cyan;
+}
+
+.cm3 .wrapper__col3__main__box3 {
+  width: 250px;
+  height: 430px;
+
+  background-color: blue;
+
+  margin-top: 220px;
+}
